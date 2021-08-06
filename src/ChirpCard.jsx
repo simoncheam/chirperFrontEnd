@@ -7,7 +7,7 @@ const ChirpCard = (props) => {
 
      <div class="card my-2 ">
 
-        <div class="my-2" className="card">
+        <div class=" shadow-lg" className="card">
 
             <div className="card-header bg-info"> <TiUser/> @{props.username}</div>
 

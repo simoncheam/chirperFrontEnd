@@ -75,7 +75,7 @@ const App = () => {
 
                         {/* input chirp  */}
                         <input value= {chirp} onChange={(e) => setChirp(e.target.value)} className="form-control" type="text-area" placeholder ="What's on your mind?🤔" maxLength={maxLength}/>
-                        <label className="text-sm" class="bg-light m-2">Characters = {chirp.length}/150</label>
+                        <label className="text-sm" class="bg-light m-2 text-secondary">Characters = {chirp.length}/150</label>
                         </>
 
                 </form>
